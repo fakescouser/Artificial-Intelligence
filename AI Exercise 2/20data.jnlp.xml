@@ -1,0 +1,138 @@
+<!-- Example Database -->
+<EXAMPLES>
+
+	<DESCRIPTION>
+		<SHORT></SHORT>
+		<DETAILED></DETAILED>
+	</DESCRIPTION>
+
+	<!-- Parameter Definition -->
+	<PARAMETER type=input>Outlook</PARAMETER>
+	<PARAMETER type=input>Company</PARAMETER>
+	<PARAMETER type=input>Sailboat</PARAMETER>
+	<PARAMETER type=output>Sail</PARAMETER>
+
+	<!-- Examples -->
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Rainy</VALUE>
+		<VALUE parameter="Company">Big</VALUE>
+		<VALUE parameter="Sailboat">Big</VALUE>
+		<VALUE parameter="Sail">Yes</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Rainy</VALUE>
+		<VALUE parameter="Company">Big</VALUE>
+		<VALUE parameter="Sailboat">Small</VALUE>
+		<VALUE parameter="Sail">Yes</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Rainy</VALUE>
+		<VALUE parameter="Company">Med</VALUE>
+		<VALUE parameter="Sailboat">Big</VALUE>
+		<VALUE parameter="Sail">No</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Rainy</VALUE>
+		<VALUE parameter="Company">Med</VALUE>
+		<VALUE parameter="Sailboat">Small</VALUE>
+		<VALUE parameter="Sail">No</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Sunny</VALUE>
+		<VALUE parameter="Company">Big</VALUE>
+		<VALUE parameter="Sailboat">Big</VALUE>
+		<VALUE parameter="Sail">Yes</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Sunny</VALUE>
+		<VALUE parameter="Company">Big</VALUE>
+		<VALUE parameter="Sailboat">Small</VALUE>
+		<VALUE parameter="Sail">Yes</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Sunny</VALUE>
+		<VALUE parameter="Company">Med</VALUE>
+		<VALUE parameter="Sailboat">Big</VALUE>
+		<VALUE parameter="Sail">Yes</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Sunny</VALUE>
+		<VALUE parameter="Company">Med</VALUE>
+		<VALUE parameter="Sailboat">Big</VALUE>
+		<VALUE parameter="Sail">Yes</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Sunny</VALUE>
+		<VALUE parameter="Company">Med</VALUE>
+		<VALUE parameter="Sailboat">Small</VALUE>
+		<VALUE parameter="Sail">Yes</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Sunny</VALUE>
+		<VALUE parameter="Company">No</VALUE>
+		<VALUE parameter="Sailboat">Small</VALUE>
+		<VALUE parameter="Sail">Yes</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Sunny</VALUE>
+		<VALUE parameter="Company">No</VALUE>
+		<VALUE parameter="Sailboat">Big</VALUE>
+		<VALUE parameter="Sail">No</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Rainy</VALUE>
+		<VALUE parameter="Company">Med</VALUE>
+		<VALUE parameter="Sailboat">Big</VALUE>
+		<VALUE parameter="Sail">No</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Rainy</VALUE>
+		<VALUE parameter="Company">No</VALUE>
+		<VALUE parameter="Sailboat">Big</VALUE>
+		<VALUE parameter="Sail">No</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Rainy</VALUE>
+		<VALUE parameter="Company">No</VALUE>
+		<VALUE parameter="Sailboat">Big</VALUE>
+		<VALUE parameter="Sail">No</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Rainy</VALUE>
+		<VALUE parameter="Company">No</VALUE>
+		<VALUE parameter="Sailboat">Small</VALUE>
+		<VALUE parameter="Sail">No</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Rainy</VALUE>
+		<VALUE parameter="Company">No</VALUE>
+		<VALUE parameter="Sailboat">Small</VALUE>
+		<VALUE parameter="Sail">No</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Sunny</VALUE>
+		<VALUE parameter="Company">Big</VALUE>
+		<VALUE parameter="Sailboat">Big</VALUE>
+		<VALUE parameter="Sail">Yes</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Sunny</VALUE>
+		<VALUE parameter="Company">Big</VALUE>
+		<VALUE parameter="Sailboat">Small</VALUE>
+		<VALUE parameter="Sail">No</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Sunny</VALUE>
+		<VALUE parameter="Company">Med</VALUE>
+		<VALUE parameter="Sailboat">Big</VALUE>
+		<VALUE parameter="Sail">No</VALUE>
+	</EXAMPLE>
+	<EXAMPLE type=training>
+		<VALUE parameter="Outlook">Sunny</VALUE>
+		<VALUE parameter="Company">Med</VALUE>
+		<VALUE parameter="Sailboat">Big</VALUE>
+		<VALUE parameter="Sail">No</VALUE>
+	</EXAMPLE>
+</EXAMPLES>
+
+
